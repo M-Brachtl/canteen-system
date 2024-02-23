@@ -99,3 +99,12 @@ main{
 #soupsDiv p{
     margin-top: 29px;
 }
+
+#confirm:active {
+    background-color: #333;
+    color: #5cb85c; /* Change the text color for better visibility */
+}
+
+#sendChoices:active {
+    background-color: #4cae4c;
+}
