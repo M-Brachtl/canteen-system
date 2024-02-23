@@ -59,11 +59,11 @@ app.post('/data/update', (req,res)=>{
 ///noví strávníci
 app.post('/data/new-user', (req, res)=>{
     let fileContent = JSON.parse(fs.readFileSync(__dirname + '/data/users.json'));
-    console.log(fileContent);
+    // console.log(fileContent);
     fileContent.push(req.body);
-    console.log(fileContent);
-    console.log(JSON.stringify(fileContent));
-    console.log(typeof JSON.stringify(fileContent));
+    // console.log(fileContent);
+    // console.log(JSON.stringify(fileContent));
+    // console.log(typeof JSON.stringify(fileContent));
     fs.writeFileSync(__dirname + '/data/users.json',JSON.stringify(fileContent));
     res.send('Nový uživatel přidán.');
 })

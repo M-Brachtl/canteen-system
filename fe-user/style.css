@@ -73,7 +73,8 @@ button:hover {
 }
 
 #confirmation {
-    margin: 20px 0;
+    top: 2px;
+    position: relative;
     color: #5cb85c;
 }
 
