@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Správa obědů</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    Jméno: <input id="username" type="text" autocomplete="off"> <button id="confirm">Potvrdit</button>
+    <main>
+        <div>
+        <p>Pondělí: <br>
+            1: <span name="1" class="mon"></span> <button name="1" class="mon">X</button>
+            2: <span name="2" class="mon"></span> <button name="2" class="mon">X</button>
+            3: <span name="3" class="mon"></span> <button name="3" class="mon">X</button>
+        </p>
+        <p>Úterý: <br>
+            1: <span name="1" class="tue"></span> <button name="1" class="tue">X</button>
+            2: <span name="2" class="tue"></span> <button name="2" class="tue">X</button>
+            3: <span name="3" class="tue"></span> <button name="3" class="tue">X</button>
+        </p>
+        <p>Středa: <br>
+            1: <span name="1" class="wen"></span> <button name="1" class="wen">X</button>
+            2: <span name="2" class="wen"></span> <button name="2" class="wen">X</button>
+            3: <span name="3" class="wen"></span> <button name="3" class="wen">X</button>
+        </p>
+        <p>Čtvrtek: <br>
+            1: <span name="1" class="thu"></span> <button name="1" class="thu">X</button>
+            2: <span name="2" class="thu"></span> <button name="2" class="thu">X</button>
+            3: <span name="3" class="thu"></span> <button name="3" class="thu">X</button>
+        </p>
+        <p>Pátek: <br>
+            1: <span name="1" class="fri"></span> <button name="1" class="fri">X</button>
+            2: <span name="2" class="fri"></span> <button name="2" class="fri">X</button>
+            3: <span name="3" class="fri"></span> <button name="3" class="fri">X</button>
+        </p>
+        </div>
+        <div id="soupsDiv">
+            <p><button id="monSoup">Polévka</button> <span class="soupSpans" name="mon"></span></p>
+            <p><button id="tueSoup">Polévka</button> <span class="soupSpans" name="tue"></span></p>
+            <p><button id="wenSoup">Polévka</button> <span class="soupSpans" name="wen"></span></p>
+            <p><button id="thuSoup">Polévka</button> <span class="soupSpans" name="thu"></span></p>
+            <p><button id="friSoup">Polévka</button> <span class="soupSpans" name="fri"></span></p>
+        </div>
+    </main><br>
+    <button id="sendChoices">Odeslat volby</button>
+    <p id="confirmation"></p>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stravování</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div hidden class="password-check">
+        <h1>Kontrola hesla</h1>
+        <p>Zadejte heslo: <input type="password" id="passwordInput"></p>
+        <button>Potvrdit</button>
+        <p hidden>Špatné heslo</p>
+    </div>
+    <div class="content">
+        <h2>Pondělí</h2>
+            <p>Oběd 1: <input name="1" class="mon" type="text"></p>
+            <p>Oběd 2: <input name="2" class="mon" type="text"></p>
+            <p>Oběd 3: <input name="3" class="mon" type="text"></p>
+        <h2>Úterý</h2>
+            <p>Oběd 1: <input name="1" type="text" class="tue"></p>
+            <p>Oběd 2: <input name="2" type="text" class="tue"></p>
+            <p>Oběd 3: <input name="3" type="text" class="tue"></p>
+        <h2>Středa</h2>
+            <p>Oběd 1: <input name="1" type="text" class="wen"></p>
+            <p>Oběd 2: <input name="2" type="text" class="wen"></p>
+            <p>Oběd 3: <input name="3" type="text" class="wen"></p>
+        <h2>Čtvrtek</h2>
+            <p>Oběd 1: <input name="1" type="text" class="thu"></p>
+            <p>Oběd 2: <input name="2" type="text" class="thu"></p>
+            <p>Oběd 3: <input name="3" type="text" class="thu"></p>
+        <h2>Pátek</h2>
+            <p>Oběd 1: <input name="1" type="text" class="fri"></p>
+            <p>Oběd 2: <input name="2" type="text" class="fri"></p>
+            <p>Oběd 3: <input name="3" type="text" class="fri"></p>
+    </div>
+    <div>
+        <h2>Polévky</h2>
+        <p>Pondělí: <input type="text" class="soups"></p>
+        <p>Úterý: <input type="text" class="soups"></p>
+        <p>Středa: <input type="text" class="soups"></p>
+        <p>Čtvrtek: <input type="text" class="soups"></p>
+        <p>Pátek: <input type="text" class="soups"></p>
+    </div>
+    <div class="new-user">
+        <h2>Nový uživatel</h2>
+        <p>Jméno: <input id="nameNewUser" type="text"></p>
+        <button id="addUser">Přidat</button>
+    </div>
+    <button id="confirm">Potvrdit</button>
+    <script src="script.js"></script>
+</body>
+</html>

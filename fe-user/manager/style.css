@@ -1,0 +1,22 @@
+p{
+    margin-top: -8px;
+}
+input{
+    min-width: 500px;
+}
+#confirm{
+    position: absolute;
+    top: 9px;
+    font-size: xx-large;
+    left: 222px;
+    outline: none;
+}
+
+.new-user{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+#nameNewUser{
+    min-width: auto;
+}
